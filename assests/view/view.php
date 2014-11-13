@@ -26,11 +26,12 @@ $arr1 = array(255,1,22,3,45,5);
 
 
 
-
-
 foreach ($arr1 as &$value) {
     echo $value . ',';
 }
+
+
+
 
 $result1 = $this->sorts->bubbleSort($arr1);
   
@@ -57,7 +58,18 @@ echo '</div>';
 
 echo '<div class="small">';
 echo '<h1>Bubble Sort Improved</h1>';
-echo '<p> The simplest sorting algorithm is bubble sort. The bubble sort works by iterating down an array to be sorted from the first element to the last, comparing each pair of elements and switching their positions if necessary. This process is repeated as many times as necessary, until the array is sorted.</p>';
+echo '<p> The simplest sorting algorithm is bubble sort. The bubble sort works by iterating down an array to be sorted from the first element to the last, comparing each pair of elements and switching their positions if necessary. This process is repeated as many times as necessary, until the array is sorted.</p><br> <h1>  
+
+When to use it 
+
+</h1>
+<p>
+Bubble sort, selection sort: When youre doing something quick and dirty and for some reason you cant just use the standard librarys sorting algorithm. The only advantage these have over insertion sort is being slightly easier to implement.
+</p>
+
+
+
+';
 echo '<br>';
  echo 'Start : <br>';
 
