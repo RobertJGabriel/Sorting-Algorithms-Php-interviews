@@ -1,7 +1,7 @@
 Sorting Algorithms made using Php
 ==========
 
-Example of different Softing Algorithms in Php. It was used for a Google interview.
+Example of different Sorting Algorithms in Php. It was used for a Google interview.
 
 Algorithms
 --------
