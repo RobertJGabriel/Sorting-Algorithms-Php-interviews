@@ -1,5 +1,5 @@
 <?php 
-	include_once("assests/controller/controller.php");
+	include_once("assets/controller/controller.php");
 
 	$controller = new Controller();
 	$controller->invoke();
